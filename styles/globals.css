@@ -1,0 +1,215 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.auth-container {
+  display: flex;
+  height: 100vh;
+  background: url(../public/img/assets/login-register.jpg) no-repeat center
+    center;
+}
+
+.auth-description {
+  display: none;
+}
+
+.auth-form {
+  width: 100%;
+  overflow-x: auto;
+  background: #fff;
+  box-shadow: 1px 0 20px rgb(0 0 0 / 8%);
+}
+
+.color-primary {
+  color: #0c8b46;
+}
+
+.color-primary:hover {
+  color: #8cc643;
+}
+
+.app-bg-secondary {
+  background-color: #8cc643!important;
+}
+
+@media (min-width: 525px) {
+  .auth-description {
+    width: 70%;
+    padding: 0px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .auth-form {
+    width: 30%;
+    overflow-x: auto;
+    background: #fff;
+    box-shadow: 1px 0 20px rgb(0 0 0 / 8%);
+  }
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+
+.upload_image section {
+  padding: 0;
+}
+
+.upload_image section label {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted black;
+  border-radius: 20px;
+  width: 7rem;
+  height: 7rem;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.upload_image section label span {
+  font-weight: lighter;
+  font-size: small;
+  padding-top: 0.5rem;
+}
+
+.upload_image section input {
+  display: none;
+}
+
+.upload_image section img {
+  padding: 0;
+  margin: 0;
+}
+
+.upload_image section .images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+}
+
+.upload_image section .image {
+  margin: 1rem 0.5rem 1rem 0rem;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.upload_image section .image button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  padding: inherit;
+  background-color: #ffdada;
+}
+
+.upload_image section .image button:hover {
+  background-color: #ffcdcd;
+}
+
+.upload_image section .image p {
+  padding: 0 0.5rem;
+  margin: 0;
+}
+
+.upload_image section .upload-btn {
+  cursor: pointer;
+  display: block;
+  /* margin: 0 auto; */
+  border: none;
+  border-radius: 20px;
+  width: 10rem;
+  height: 3rem;
+  color: white;
+  background-color: green;
+}
+
+.upload_image section label:hover,
+.upload_image section .upload-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.upload_image section .error {
+  text-align: left;
+}
+
+.upload_image section .error span {
+  color: red;
+}
+
+/* Sidebar scrollbar */
+#sidenav-main::-webkit-scrollbar {
+  width: 7px;
+}
+
+#sidenav-main::-webkit-scrollbar-track {
+  background-color: #f8f9fe; /* Track color */
+}
+
+#sidenav-main::-webkit-scrollbar-thumb {
+  background: hsl(120, 40%, 60%); /* Dimmed dark light green color */
+  border-radius: 5px;
+  border: 4px #f8f9fe;
+}
+
+#sidenav-main::-webkit-scrollbar-thumb:hover {
+  background-color: #c1c7d1; /* Thumb color on hover */
+}
+
+#sidenav-main::-webkit-scrollbar-thumb:active {
+  background-color: #6b7381; /* Thumb color when active */
+}
+
+/* Main content scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f8f9fe; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(120, 40%, 60%); /* Dimmed dark light green color */
+  border-radius: 5px;
+  border: 4px #f8f9fe;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  z-index: 1; /* Ensure the header is above the content */
+}

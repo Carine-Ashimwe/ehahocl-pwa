@@ -1,0 +1,11 @@
+P.Tasks
+- Add tags for products in admin and marketplace sidebar
+- Groups on market place sidebar
+- Discount making
+- Saving order and payment
+
+- Make slug column for products, business-products, categories, sub-categories, groups, tags, user-businesses
+- Deletes and disable features
+- Messages after add and update
+
+- Purchase guide on market place (link in footer with farmers ressources)

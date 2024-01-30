@@ -1,0 +1,24 @@
+{
+  "name": "ehaho",
+  "short_name": "ehaho",
+  "description": "eHaho Progressive Web App",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/img/brand/ehaho-favicon.ico",
+      "sizes": "72x72",
+      "type": "image/x-icon",
+      "purpose": "monochrome"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/img/brand/ehaho-favicon.ico",
+      "sizes": "1920x1080",
+      "type": "image/x-icon"
+    }
+  ]
+}
